@@ -17,7 +17,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://supplysense-api-ds2u.onrender.com";
 
 type Product = {
   product_id: number;
