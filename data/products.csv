@@ -1,0 +1,11 @@
+product_id,product_name,category,unit_price,supplier_id,base_daily_demand
+1,Wireless Keyboard,Computer Accessories,999.0,1,70
+2,Wireless Mouse,Computer Accessories,699.0,1,85
+3,USB-C Hub,Computer Accessories,1499.0,2,45
+4,Laptop Stand,Office Accessories,1299.0,3,35
+5,Mechanical Keyboard,Computer Accessories,3499.0,2,28
+6,Webcam,Computer Accessories,1999.0,3,32
+7,27-inch Monitor,Displays,18999.0,4,18
+8,Headset,Computer Accessories,2499.0,2,25
+9,Bluetooth Speaker,Audio,2999.0,3,40
+10,Power Bank,Mobile Accessories,1499.0,4,50

@@ -1,0 +1,4 @@
+warehouse_id,warehouse_name,city,region
+1,Bangalore Warehouse,Bangalore,South
+2,Hyderabad Warehouse,Hyderabad,South
+3,Delhi Warehouse,Delhi,North
