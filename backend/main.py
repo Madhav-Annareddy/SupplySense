@@ -14,10 +14,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173"
-    ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -111,8 +108,8 @@ def get_recommendations(horizon: str = "7d"):
         "14d": 14,
         "30d": 30,
         "3m": 90,
-        "6m": 180,
-        "12m": 360
+        "6m": 181,
+        "12m": 365
     }
 
     days = horizon_days[horizon]
